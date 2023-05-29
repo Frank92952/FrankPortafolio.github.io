@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio | Mariana Arias Desarrolladora Web">
+    <meta name="robots" content="index,follow">
+
+    <title>PORTAFOLIO</title>
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css">
+    <link rel="stylesheet" href="./assets/stylesheet/index.css">
+    <link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+
+ <!-- Favicon -->
+ <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+ <!-- Bootstrap -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+ <!-- Iconos de Bootstrap -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+ <!-- CSS -->
+ 
+ <!-- Google Fonts -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container--loader">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header">
+        <img src="./assets/images/logo.png" alt="Logo Portafolio" class="logo__header">
+
+        <nav class="nav_menu not-active">
+            <a href="#home" class="active">Home</a>
+            <a href="#sobreMi" data-section="menu" data-value="item2">Sobre mí</a>
+            <a href="#habilidades" data-section="menu" data-value="item3">Lenguaje</a>
+            <a href="#contenido" data-section="menu" data-value="item4">Contenido</a>
+            <a href="#contacto" data-section="menu" data-value="item6">Contacto</a>
+
+            <!-- Idiomas de la página -->
+       
+        </nav>
+
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="home" id="home">
+            <picture class="container_image-home" data-aos="zoom-in">
+                <img class="image_home" src="./assets/images/frank.jpg" alt="Ilustración mujer y plantas">
+            </picture>
+            
+            <div class="home_info">
+                <div class="container_text-info">
+                    <p class="home_text-1" data-section="home" data-value="home_text-1">Hola! Soy</p>
+                    <p class="home_text-2">Frank Caysahuana</p>
+                </div>
+
+                <div>
+                    <p class="home_text-3 text-type" data-section="home" data-value="home_text-3">Desarrollador web Front-End</p>
+                    
+                </div>
+
+                <div class="container_parrafo-info">
+                    <p data-section="home" data-value="parrafo-info">Estudiante de Ingenieria de Sistemas enfocada al Desarrollo Web Frontend. Aquí podrás conocer algunos de mis proyectos más destacados y mi enfoque en crear experiencias digitales únicas y memorables para los usuarios.</p>
+                </div>
+
+                <div class="container_button">
+                    <a href="#" target="_blank">
+                        <button class="cv_button" data-section="home" data-value="cv_button">Descargar CV</button>
+                    </a>
+                    <a href="#contacto">
+                        <button class="contact_button" data-section="home" data-value="contact_button">Contacto</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="links">
+                <a href="https://www.linkedin.com/in/frank-caysahuana-delao-720315254/" target="_blank">
+                    <img src="./assets/images/icon-linkedin.png" alt="LinkedIn" class="icon-linkedin">
+                </a>
+                <a href="https://github.com/Frank92952/FRANK" target="_blank">
+                    <img src="./assets/images/icon-github.png" alt="GitHub" class="icon-github">
+                </a>
+                <a href="https://codepen.io/Frank-Caysahuana-delao" target="_blank">
+                    <img src="./assets/images/icon-codepen.png" alt="CodePen" class="icon-CodePen">
+                </a>
+                <a href="https://www.instagram.com/frankcaysahuana10/?hl=es" target="_blank">
+                    <img src="./assets/images/icon-instagram.png" alt="Instagram" class="icon-instagram">
+                </a>
+            </div>
+        </section>
+
+        <!-- Sobre mí -->
+        <section class="sobreMi" id="sobreMi">
+            <h1 data-section="sobre-mi" data-value="title">Sobre mí</h1>
+
+            <div class="container_content-sobreMi">
+                <div class="container_texto-sobreMi">
+                    <span class="title_sobreMi">Frank Caysahuana</span>
+                    <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">Soy un diseñador web apasionado por crear experiencias digitales únicas y efectivas para mis clientes. A lo largo de mi carrera Universitaria he adquirido una amplia experiencia en la creación de sitios web y aplicaciones web que no solo tienen un diseño atractivo, sino que también están optimizados para la experiencia del usuario y la conversión.
+                        En este portfolio, encontrarás una selección de mis proyectos más recientes y destacados, en los que he trabajado con clientes de diferentes sectores y tamaños. Cada proyecto que presento aquí tiene su propia historia, desde la idea inicial hasta el lanzamiento final, y estoy orgulloso de haber sido parte de su éxito..</span>
+                </div>
+    
+                <picture class="container_image-sobreMi" data-aos="fade-right">
+                    <img class="image_sobreMi" src="./assets/images/frank.jpg" alt="Ilustración mujer y café">
+                </picture>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h1 data-section="habilidades" data-value="title">Habilidades</h1>
+
+            <div class="contenedor">
+                <div class="cards_container--habilidades">
+                        <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                        <input type="checkbox" name="">
+                        <div class="cambio red">+</div>
+                        <img src="./assets/images/css.jpg" alt="Icono de CSS">
+                        <div class="detalles">
+                            <h3>CSS:3</h3>
+                            <p>
+                                CSS (Cascading Style Sheets) es un lenguaje utilizado para definir la presentación y el aspecto visual de un documento HTML. Es una tecnología fundamental en el desarrollo web que permite controlar la apariencia de los elementos en una página, como el diseño, los colores, las fuentes, los espacios, los tamaños y otros estilos.
+                            </p>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                        <input type="checkbox" name="">
+                        <div class="cambio black">+</div>
+                        <img src="./assets/images/html.jpg" alt="Icono de   HTML">
+                        <div class="detalles">
+                            <h3>HTML:5</h3>
+                            <p>HTML (HyperText Markup Language) es un lenguaje de marcado utilizado para crear la estructura y el contenido de páginas web. Es el lenguaje fundamental en el desarrollo web y proporciona la base sobre la cual se construyen los sitios y aplicaciones web HTML utiliza etiquetas o elementos para marcar diferentes partes de un documento.</p>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                        <input type="checkbox" name="">
+                        <div class="cambio red">+</div>
+                        <img src="./assets/images/js.jpg" alt="Icono de JavaScript">
+                        <div class="detalles">
+                            <h3>JavaScript</h3>
+                            <p>
+                                JS se centran en la estructura y presentación de una página web, respectivamente, JavaScript se utiliza para crear comportamientos dinámicos. Esto significa que se ejecuta en el navegador web del usuario y permite interactuar con elementos de la página, responder a eventos, realizar cálculos, manipular datos y comunicarse con servidores web.
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                        <input type="checkbox" name="">
+                        <div class="cambio black">+</div>
+                        <img src="./assets/images/bootstrap.jpg" alt="Icono de bootstrap">
+                        <div class="detalles">
+                            <h3>BOOTSTRAP</h3>
+                            <p>Bootstrap es un framework front-end de código abierto ampliamente utilizado en el desarrollo web. Proporciona un conjunto de herramientas, componentes y estilos predefinidos que facilitan la creación de interfaces web modernas</p>
+                        </div>
+                    </div>
+    
+                    <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                        <input type="checkbox" name="">
+                        <div class="cambio red">+</div>
+                        <img src="./assets/images/tailwind.png" alt="Icono de Tailwind">
+                        <div class="detalles">
+                            <h3>TAILWIND</h3>
+                            <p>
+                                Tailwind CSS es un framework de diseño de código abierto utilizado para construir interfaces web personalizadas y receptivas. Se basan en componentes predefinidos, Tailwind CSS se centra en proporcionar una amplia variedad de utilidades CSS de bajo nivel que se pueden combinar para crear estilos y diseños personalizados.
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                        <input type="checkbox" name="">
+                        <div class="cambio black">+</div>
+                        <img src="./assets/images/java.jpg" alt="Java">
+                        <div class="detalles">
+                            <h3>JAVA</h3>
+                            <p>
+                                Java es un lenguaje de programación de propósito general, orientado a objetos y de alto nivel.Java se ha vuelto extremadamente popular y es ampliamente utilizado en una amplia variedad de aplicaciones, desde desarrollo de software empresarial hasta desarrollo de aplicaciones móviles y embebidas.
+                            </p>
+                        </div>
+                    </div>
+                    
+               
+                </div>
+            </div>    
+          
+        </section>
+
+        <!-- Formación -->
+         <!-- Testimonios -->
+    <section id="contenido" class="contenido">
+        <h2 class="seccion-titulo">CONTENIDO</h2>
+        
+        <!-- Carrusel -->
+        <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+               <h1>SEMANA 01</h1>
+                <p class="testimonio-texto">Durante la primera semana del curso, se llevó a cabo la presentación de los silabos de todas las clases programadas. Además, se dio inicio a las lecciones con una introducción al lenguaje de marcado HTML.</p>
+                <div class="testimonio-info">
+                <button class="boton">VER</button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <h1>SEMANA 02</h1>
+                     <p class="testimonio-texto">Durante la segunda semana del curso, se llevó a cabo una sesión dedicada al aprendizaje y aplicación del lenguaje de marcado HTML utilizando la técnica Emet. Esta técnica es ampliamente utilizada en el desarrollo web.</p>
+                     <div class="testimonio-info">
+                     <button class="boton">VER</button>
+                     </div>
+                   </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <h1>SEMANA 03</h1>
+                     <p class="testimonio-texto">Durante la tercera semana del curso, se llevó a cabo una sesión dedicada a la herramienta de diseño Figma, la cual fue utilizada para el desarrollo del portafolio personal de cada estudiante.</p>
+                     <div class="testimonio-info">
+                     <button class="boton">VER</button>
+                     </div>
+                   </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <h1>SEMANA 04</h1>
+                     <p class="testimonio-texto">Durante la cuarta semana del curso, se llevó a cabo una sesión dedicada al tema fundamental de JavaScript, uno de los lenguajes de programación más populares y ampliamente utilizado en el desarrollo web.</p>
+                     <div class="testimonio-info">
+                     <button class="boton">VER</button>
+                     </div>
+                   </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <h1>SEMANA 05</h1>
+                     <p class="testimonio-texto">
+                        Durante la quinta semana del curso, se llevó a cabo una sesión de aprendizaje enfocada en profundizar en el tema de JavaScript, uno de los lenguajes de programación más poderosos y su aplicación práctica en la creación de sitios web interactivos y dinámicos.</p>
+                     <div class="testimonio-info">
+                     <button class="boton">VER</button>
+                     </div>
+                   </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <h1>SEMANA 06</h1>
+                     <p class="testimonio-texto">Durante la sexta semana del curso, se llevó a cabo una sesión de aprendizaje dedicada al tema de JSON (JavaScript Object Notation) y una introducción a React, uno de los frameworks más populares para el desarrollo de aplicaciones web.</p>
+                     <div class="testimonio-info">
+                     <button class="boton">VER</button>
+                     </div>
+                   </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <h1>SEMANA 07</h1>
+                     <p class="testimonio-texto">Durante la séptima semana del curso, se llevó a cabo una sesión de aprendizaje dedicada a la consolidación de los conocimientos en React, enfocándose en la creación de archivos y una práctica que permitió a los estudiantes aplicar de manera práctica los conceptos aprendidos.</p>
+                     <div class="testimonio-info">
+                     <button class="boton">VER</button>
+                     </div>
+                   </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <h1>SEMANA 08</h1>
+                     <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+                     <div class="testimonio-info">
+                     <button class="boton">VER</button>
+                     </div>
+                   </div>
+            </div>            
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </section>
+      
+
+        <!-- Contacto -->
+        <section class="contacto" id="contacto">
+            <h1 data-section="contacto" data-value="title">Contacto</h1>
+
+            <div class="container_box--contacto" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+    
+                <div class="container--contacto">
+                    <div class="container_text--contacto">
+                        <p data-section="contacto" data-value="text">Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.</p>
+                    </div>
+    
+                    <form id="form" class="form-contact" name="contacto-portafolio" netlify>
+                        <input id="nombre" type="text" name="name" placeholder="Nombre | Name" required>
+                        <input id="email" type="email" name="email" placeholder="E-mail" required>
+                        <input id="asunto" type="text" name="affair" placeholder="Asunto | Subject" required>
+                        <textarea id="mensaje" cols="20" rows="4" name="message" placeholder="Mensaje | Message" required></textarea>
+    
+                        <div class="btn_form--contacto">
+                            <button id="btn-enviar" type="submit" data-section="contacto" data-value="btn-enviar">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contianer--footer">
+            <div class="container_redes-footer">
+                <a href="https://www.linkedin.com/in/frank-caysahuana-delao-720315254/" target="_blank">
+                    <img src="./assets/images/icon-linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/Frank92952/FRANK" target="_blank">
+                    <img src="./assets/images/icon-github.png" alt="GitHub">
+                </a>
+                <a href="https://codepen.io/Frank-Caysahuana-delao" target="_blank">
+                    <img src="./assets/images/icon-codepen.png" alt="CodePen" class="icon_codepen--footer">
+                </a>
+                <a href="https://www.instagram.com/frankcaysahuana10/?hl=es" target="_blank">
+                    <img src="./assets/images/icon-instagram.png" alt="Instagram"">
+                </a>
+            </div>
+
+            <div class="container_text--footer">
+                <span>Copyright © | Coded with</span>
+                <img src="./assets/images/icon-corazon.png" alt="Corazón">
+                <span>by</span>
+                <span>Caysahuana Frank</span>
+            </div>
+        </div>
+    </footer>
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Mi script -->
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
