@@ -1,0 +1,22 @@
+.table{
+   
+    background-position: 100px;
+  
+}
+.filas{
+    border: 8px solid rgb(187, 88, 88);
+    background-color: blue;
+}
+.columna{
+    border: 2px solid rgb(9, 9, 9);
+    background-color: blueviolet;
+}
+
+#productos{
+    text-size-adjust: 10px;
+    text-decoration-color: aquamarine;
+    background-color: rgb(42, 165, 91);
+    border-image-slice: 20px;
+    font-size: 20px;
+    
+}

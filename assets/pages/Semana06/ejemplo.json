@@ -1,0 +1,39 @@
+[
+    {
+      "nombre": "Elantra",
+      "descripcion": " Ofrece una conducción ágil y estable, impulsada por un motor de bajo consumo de combustible, que te brinda un comportamiento en carretera óptimo donde quiera que vayas.",
+      "precio": 80142,
+      "foto": "https://di-uploads-pod2.dealerinspire.com/advantagenissan/uploads/2017/11/2018-Hyundai-Elantra.png"
+    },
+    {
+      "nombre": "STARIA Minibus",
+      "descripcion": "El STARIA de 11 plazas ofrece posibilidades ilimitadas y es perfecto tanto para excursiones cortas como largas. Hay un amplio espacio para las piernas, los hombros y la cabeza, además de varios puertos de carga USB a bordo para que todos estén contentos durante el viaje.",
+      "precio": 142462,
+      "foto": "https://gildemeister-retail.pe/wp-content/uploads/2022/07/hyundai-staria-thmb.png"
+    },
+    {
+      "nombre": "new TUCSON",
+      "descripcion": "Presiona el pedal del acelerador y tu pulso se acelera cuando el TUCSON responde con una oleada de potencia suave y silenciosa que es posible gracias a Smartstream, la última tecnología de motores de Hyundai. Puedes elegir entre tres tipos de motores y, para darte un toque de alta tecnología, la elección de marchas con botón es ahora una característica estándar en toda la gama de modelos.",
+      "precio": 101042,
+      "foto": "https://gildemeister-retail.pe/wp-content/uploads/2021/04/showroom_header_modelo-new-tucson.png"
+    },
+    {
+      "nombre": "718 Cayman GT4",
+      "descripcion": "Es el automóvil deportivo perfecto para todo aquel que disfrute viajando hasta el límite. Para todos los que prefieren preguntarse «¿por qué no?», en lugar de «¿por qué?». Para los que se toman muy en serio la diversión y prefieren sentarse en un asiento deportivo, antes que en un sillón de cuero.",
+      "precio": 495421,
+      "foto": "https://files.porsche.com/filestore/image/multimedia/none/982-718gt4-modelimage-sideshot/model/5b3fd684-85f2-11e9-80c4-005056bbdc38/porsche-model.png"
+    },
+    {
+      "nombre": "718 Spyder",
+      "descripcion": "Con un concepto de motor central ágil que llene de lágrimas de alegría los ojos de cualquier amante de los automóviles deportivos. Con una capota de arquitectura ligera, motor atmosférico de seis cilindros, chasis deportivo, lazadas de apertura de las puertas y, en definitiva, todo lo que necesita su día a día, y aún más su corazón.",
+      "precio": 488406,
+      "foto": "https://files.porsche.com/filestore/image/multimedia/none/982-718spyder-modelimage-sideshot/model/d9552a39-8616-11e9-80c4-005056bbdc38/porsche-model.png"
+    },
+    {
+      "nombre": "911 Sport Classic",
+      "descripcion": "550 CV, tracción trasera, cambio manual. Esta combinación no deja indiferente a ningún entusiasta de Porsche. El Porsche 911 Sport Classic, con su motor bóxer biturbo de 3.7 litros y 405 kW (550 CV), es el 911 manual más potente de la actualidad.",
+      "precio": 918407,
+      "foto": "https://files.porsche.com/filestore/image/multimedia/none/992-sc-modelimage-sideshot/model/53f9cce9-b98f-11ec-80ed-005056bbdc38/porsche-model.png"
+    }
+  ]
+  
