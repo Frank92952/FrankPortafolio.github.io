@@ -17,13 +17,60 @@
         .amarillo{
             background-color: darkgoldenrod;
         }
+        body {
+      padding: 20px;
+      }
+      body {
+    background-color: rgb(245, 172, 120);
+  }
+  
+  h1 {
+    color: rgb(9, 43, 236);
+    text-align: center;
+    background-color: rgb(10, 10, 10);
+  }
+  
+  h3 {
+    color: blueviolet;
+  }
+    /* Agregar estilos para los puntos tipo viñetas */
+    .bullets {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    .imagen {
+    justify-content: center;
+  }
+  
     </style>
 </head>
 <body>
     <header>
-      <center><h1>SEMANA02</h1></center>
+      <div class="container">
+        <h1>Informe de la Semana 02</h1>
+        <hr>
+        <hr>
+        <h3>Fundamentos de Html Y Emet</h3>
+        <ul class="bullets"> 
+          <p>Durante la segunda semana del curso, se llevó a cabo una sesión dedicada al aprendizaje y aplicación del lenguaje de marcado HTML utilizando la técnica Emet. Esta técnica es ampliamente utilizada en el desarrollo web.</p>
+          <p>Para utilizar Emet, es importante comprender la estructura básica de un documento HTML y cómo se pueden utilizar las etiquetas para marcar y estructurar el contenido. Al utilizar Emet, se puede agilizar el proceso de escritura de código HTML, ya que permite escribir etiquetas y atributos de manera más rápida y concisa.</p>
+          <!-- Utilizar una lista desordenada en lugar de párrafos -->
+          <li>Para crear una etiqueta de apertura y cierre con contenido entre ellas:
+            tagname>contenido/stagname>.</li>
+          <li>Para crear una etiqueta de apertura con atributos y sin etiqueta de cierre:
+            tagname[attr="value"]</li>
+          <li>Para crear una etiqueta de apertura con atributos y contenido:
+            tagname[attr="value"]>contenido</li>
+            <br>
+            <p>Estos son solo algunos ejemplos de cómo se puede utilizar la técnica Emet en HTML. Es importante explorar y practicar con diferentes combinaciones y posibilidades para familiarizarse con su uso y aprovechar sus beneficios en el desarrollo web.</p>
+            <p>Recuerda que a medida que avancemos en el curso, profundizaremos en otros conceptos y técnicas relacionadas con el desarrollo web, como CSS y JavaScript, que te permitirán crear sitios web más interactivos y atractivos.</p>
+        </ul>
+      </div>
+      <hr>
+
+      <h1>La clase que Desarrollo En la Semana 02</h1>
         <div class="container bg-primary text-center p-5">
-            <h1>mi pagina con Boostrap</h1>
+            <h2>mi pagina con Boostrap</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, alias.</p>
         </div>
         <div class="container">
@@ -38,7 +85,7 @@
                 <div class="col-md-3 col-sm-12 rojo">amarillo</div>
             </div>
         </div>
-    </header>
+   
     <nav class="navbar navbar-expand-lg bg-dark container" data-bs-theme="dark" >
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>

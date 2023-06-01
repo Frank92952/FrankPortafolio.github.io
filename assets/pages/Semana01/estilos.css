@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(245, 172, 120);
+  }
+  
+  h1 {
+    color: rgb(9, 43, 236);
+    text-align: center;
+    background-color: rgb(10, 10, 10);
+  }
+  
+  h3 {
+    color: blueviolet;
+  }
+  
+  .imagen {
+    justify-content: center;
+  }
+  
+  .letras {
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+    color: white;
+    position: absolute;
+    font-size: 40px;
+  }
+  .embed-container {
+    display: flex;
+    justify-content: center;
+
+  }
+  @media (max-width: 576px) {
+    .letras {
+      top: 50%; /* Centra verticalmente en dispositivos más pequeños */
+      left: 50%;
+      transform: translate(-50%, -50%); /* Centra horizontalmente en dispositivos más pequeños */
+      font-size: 16px; /* Ajusta el tamaño de fuente en dispositivos más pequeños si es necesario */
+    }
+  }
