@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informe de Curso</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="estilos.css">
+  <style>
+    body {
+      padding: 20px;
+    }
+    
+    /* Agregar estilos para los puntos tipo viñetas */
+    .bullets {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    body {
+    background-color: rgb(245, 172, 120);
+  }
+  
+  h1 {
+    color: rgb(9, 43, 236);
+    text-align: center;
+    background-color: rgb(10, 10, 10);
+  }
+  
+  h3 {
+    color: blueviolet;
+  }
+  .embed-container {
+    display: flex;
+    justify-content: center;
+
+  }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Informe de la Semana 12</h1>
+    <p>Durante la semana 12, nos centramos en desarrollar un registro de clientes utilizando Next.js y almacenando los datos, incluyendo la imagen del cliente, en una base de datos. Además, exploramos cómo guardar la imagen directamente en el código de la aplicación</p>
+    <hr>
+    <h3>Se procesedio lo siguiente:</h3>
+    <ul class="bullets"> <!-- Utilizar una lista desordenada en lugar de párrafos -->
+      <li><strong>En primer lugar:</strong> Como en cualquier proyecto de Next.js, lo primero que debemos hacer es configurar el proyecto utilizando la CLI de Next.js. Con esta herramienta, generamos la estructura básica de la aplicación, que incluye páginas, componentes y otras carpetas y archivos necesarios para el desarrollo.</li>
+      <li><strong>A continuación: </strong> En Next.js, creamos una página específica para el registro de clientes. Esta página contendrá un formulario que permitirá a los usuarios ingresar información como nombre, dirección, correo electrónico y, en este caso, la imagen del cliente.</li>
+      <li><strong>Durante la sesión: </strong>  Utilizando React y los componentes de formulario proporcionados por Next.js, podemos manejar la entrada de datos y eventos del formulario. Para permitir a los usuarios cargar una imagen, podemos incluir un campo de entrada de tipo "file" en el formulario.</li>
+      <li><strong>Al final de la sesión: </strong> Para guardar la información del cliente, incluyendo la imagen, necesitamos una base de datos. Podemos utilizar una base de datos relacional como MySQL o PostgreSQL, o una base de datos NoSQL como MongoDB. Para interactuar con la base de datos, podemos usar ORM (Object-Relational Mapping) o bibliotecas específicas para Node.js que nos permitan realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en la base de datos.</li>
+    </ul>
+    <p>En resumen, al combinar Next.js con una base de datos y el almacenamiento de imágenes en el código, podemos desarrollar un registro de clientes funcional y completo. Next.js facilita la creación de aplicaciones web React, mientras que la base de datos proporciona una solución para almacenar y administrar la información del cliente. Al guardar imágenes en el código, debemos considerar el impacto en el tamaño de la aplicación y evaluar si es la mejor opción según los requisitos y el escenario de uso.</p>
+  </div>
+  <hr>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
